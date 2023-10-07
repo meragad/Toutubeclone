@@ -1,0 +1,159 @@
+
+.thumbnail {
+    width: 100%;
+}
+.vidbox {
+    display: inline-block;
+    vertical-align: top;
+    width: 310px;
+}
+.thumbnail-row{
+    position: relative;
+}
+.video-time{
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 5px;
+    font-family: roboto, arial;
+    padding: 2px;
+}
+.pfp {
+    width: 35px;
+    border-radius: 100%;
+    display: inline-block;
+    margin-bottom: 70px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.vidtxt{
+    width: 230px;
+    display: inline-block;
+}
+body{
+    margin: 0;
+    padding-top: 80px;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    z-index: 100; 
+}
+.leftsec{
+    display: flex;
+    flex-direction: row;
+   align-items: center;
+   
+}
+.midsec{
+    flex: 1;
+    max-width: 500px;
+    margin-left: 70px ;
+    margin-right: 35px;
+    display: flex;
+    align-items: center;
+    vertical-align: top;
+}
+.rightsec{
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.notifications-box{
+    position: relative;
+}
+.count-notifications{
+    position: absolute;
+    top: -3px;
+    right: -4.5px;
+    font-size: 11px;
+    padding: 2px 5px;
+    background-color: red;
+    color: white;
+    border-radius: 100%;
+}
+.menu{
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.logo{
+    width: 90px;
+}
+.searchbar{
+    flex: 1;
+    height: 36.5px;
+    font-size: 16px;
+    padding-left: 10px;
+    border: 1px solid rgb(192, 192, 192);
+    width: 0;
+}
+.search{
+    height: 40px;
+    width: 60px;
+    border: 1px solid rgb(192, 192, 192);
+    margin-left: -1px;
+    margin-right: 10px;
+}
+.search-icon{
+    height: 23px;
+}
+.voice-search-icon{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+
+}
+.notifications , .youtube-apps , .upload{
+    width: 25px;
+}
+.mypfp{
+    width: 40px;
+    margin-right: 20px;
+}
+.left-bar-icons{
+    height: 74px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.left-bar-icons:hover{
+    background-color: gray;
+    cursor: pointer;
+}
+.left-bar-icons img{
+    height: 26px;
+    margin-bottom: 4px;
+}
+.leftbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    border: 1px solid gray;
+    background-color: white;
+    z-index: 100;
+}
+.left-bar-icons div{
+    font-size: 11px;
+}
